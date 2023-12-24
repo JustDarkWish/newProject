@@ -1,0 +1,101 @@
+/* Starting CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 25px;
+}
+
+header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header li {
+    display: inline;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sections */
+
+.hContent {
+    background-color: #1F2937;
+    height: 300px;
+}
+
+.container1 {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container1 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.container1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section1 {
+    height: 400px; /* Da sostituire con display flex + align items center + justify content */
+    background-color: pink;
+}
+
+.section2 {
+    height: 400px; /* Da sostituire con display flex + align items center + justify content */
+    background-color: grey;
+}
+
+.section3 {
+    height: 300px; /* Da sostituire con display flex + align items center + justify content */
+    background-color: skyblue;
+}
+
+.fSection {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.fSection p {
+    color: white;
+}
